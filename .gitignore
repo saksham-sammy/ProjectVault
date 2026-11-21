@@ -1,0 +1,36 @@
+# Python Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Testing & Logs
+.pytest_cache/
+*.log
+
+# OS & IDE metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Hygiene rules (added during migration)
+.gitpulse/
+.vercel
+.env
+.env.local
+.env.*.local
+AGENTS.md
+GEMINI.md
+CLAUDE.md
+.cursorrules
+AI_SHARED_MEMORY.md
+__pycache__/
+*.py[cod]
